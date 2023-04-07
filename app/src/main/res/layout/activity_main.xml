@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/gpa_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0.00"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Course Name"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/course_name_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:imeOptions="actionNext" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Course Credit"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/course_credit_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:imeOptions="actionNext" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Course Grade"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/course_grade_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:imeOptions="actionDone" />
+
+    <Button
+        android:id="@+id/add_course_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Course" />
+
+    <Button
+        android:id="@+id/calculate_gpa_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculate GPA" />
+
+</LinearLayout>
